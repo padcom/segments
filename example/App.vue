@@ -7,13 +7,10 @@
       <Column style="background-color: pink">Column Y</Column>
     </Column>
   </Panel>
-  <Panel style="background-color: lightgreen">
-    <Column style="background-color: cadetblue">Column 3</Column>
-    <Column style="background-color: aquamarine">Column 4</Column>
-    <Column style="background-color: chocolate">
-      <Column style="background-color: darksalmon">Column B</Column>
-      <Column style="background-color: gold">Column C</Column>
-      <Column style="background-color: pink">Column D</Column>
-    </Column>
-  </Panel>
 </template>
+
+<style>
+:root {
+  --segments-gap: 0px;
+}
+</style>

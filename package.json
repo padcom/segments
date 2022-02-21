@@ -1,16 +1,33 @@
 {
-  "name": "segments",
+  "name": "vue-segments",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Vue.js library with a powerful, self-adjusting panel with columns system",
   "main": "dist/segments.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm install && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ui"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/vue-segments"
+  },
+  "bugs": {
+    "email": "padcom@gmail.com",
+    "url": "https://github.com/padcom/vue-segments/issues"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/padcom"
+  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
     "sass": "^1.49.8",
