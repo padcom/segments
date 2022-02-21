@@ -17,8 +17,8 @@ After installing, using the library is pretty simple. The library exports the st
 ```language:javascript
 import { createApp } from 'vue'
 
-import 'segments/dist/style.css'
-import segments from 'segments'
+import 'vue-segments/dist/style.css'
+import segments from 'vue-segments'
 
 import App from './App.vue'
 
