@@ -1,0 +1,30 @@
+:root {
+  --segments-gap: 12px;
+}
+
+// grid system based on panels
+.column {
+  display: flex;
+  flex: 1 1 0px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-start;
+  min-width: 1px;
+}
+
+.column + .column {
+  margin-left: var(--segments-gap);
+}
+
+.column + .full-width {
+  margin-left: 0px;
+}
+
+.full-width {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.fixed-width {
+  flex: 0 0 auto;
+}

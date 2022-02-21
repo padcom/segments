@@ -1,0 +1,21 @@
+{
+  "name": "segments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/segments.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "sass": "^1.49.8",
+    "vite": "^2.8.4",
+    "vue": "^3.2.31",
+    "vue-tsc": "^0.31.4"
+  }
+}
