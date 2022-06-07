@@ -71,6 +71,9 @@ The standard gap between columns is `12px`. To change it overwrite the `segments
 It is also possible to use just the styles from this library. It is pretty simple, there are 5 classes to choose from:
 
 `.row` / `.panel` - a horizontal block, can contain `.column`s.
+
 `.column` - a vertical block (you nest those under `.row` or `.panel`
+
 `.full-width` - the `.column` becomes a `.row`/`.column`
+
 `.fixed-width` - the `.column` will have the defined `width` (must set the `width` property!)
