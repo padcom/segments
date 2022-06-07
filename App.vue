@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div>
+      Check out the code for this demo at <a href="https://github.com/padcom/vue-segments/tree/github-pages">https://github.com/padcom/vue-segments/tree/github-pages</a>
+    </div>
+    <br />
     <Panel style="background-color: lightred">
       <Column style="background-color: red" width="30%">Column 1</Column>
       <Column style="background-color: blue">Column 2</Column>
