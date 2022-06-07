@@ -40,7 +40,7 @@ You can also use the "Row/Column" syntax:
 
 ```
 <Row style="background-color: lightred">
-  <Column style="background-color: red">Column 1</Column>
+  <Column style="background-color: red" width="30%">Column 1</Column>
   <Column style="background-color: green">
     <Column style="background-color: orange">Column A</Column>
     <Column style="background-color: white">Column B</Column>
@@ -51,6 +51,8 @@ You can also use the "Row/Column" syntax:
   </Column>
 </Row>
 ```
+
+Please note, that any given column can either have an auto-calculated width or a given one, as shown with `Column 1`. The value of `width` prop needs to be a valid CSS size expression.
 
 ## Changing the gap between columns
 

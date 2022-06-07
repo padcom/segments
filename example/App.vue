@@ -1,7 +1,7 @@
 <template>
   <div>
     <Panel style="background-color: lightred">
-      <Column style="background-color: red">Column 1</Column>
+      <Column style="background-color: red" width="30%">Column 1</Column>
       <Column style="background-color: blue">Column 2</Column>
     </Panel>
     <br/>
