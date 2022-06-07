@@ -1,7 +1,7 @@
 {
   "name": "vue-segments",
-  "version": "1.0.1",
-  "description": "A simple Vue.js library with a powerful, self-adjusting panel with columns system",
+  "version": "1.1.0",
+  "description": "A simple Vue.js library with a powerful, self-adjusting panel/row with columns system",
   "main": "dist/segments.es.js",
   "scripts": {
     "dev": "vite",

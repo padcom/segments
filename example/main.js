@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 
-import 'segments/dist/style.css'
-import segments from 'segments'
+import 'vue-segments/dist/style.css'
+import segments from 'vue-segments'
 
 import App from './App.vue'
 

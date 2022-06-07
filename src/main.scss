@@ -28,3 +28,11 @@
 .fixed-width {
   flex: 0 0 auto;
 }
+
+.panel {
+  @extend .column, .full-width
+}
+
+.row {
+  @extend .column, .full-width
+}
