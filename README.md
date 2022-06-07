@@ -2,6 +2,10 @@
 
 Vue Segments is a very small library providing basic building blocks for creating panels/rows with columns.
 
+## Demo
+
+Check it out here: https://padcom.github.io/vue-segments
+
 ## Installation
 
 To install the library issue the following command:
