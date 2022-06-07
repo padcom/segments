@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [vue()],
   base: 'vue-segments/',
   build: {
-    outDir: '..'
+    outDir: 'docs',
   }
 })
